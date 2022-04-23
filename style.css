@@ -102,6 +102,12 @@ footer {
     color: black;
 }
 
+@media only screen and (max-width: 500px) {
+    .result, .form-class, .heading {
+        min-width: 100%;
+    }
+}
+
 
    
 
