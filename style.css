@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root {
+    --color-primary: white;
+    --color-secondary: #EEE3E3;
+}
+
+html, body {
+    background-color: var(--color-secondary);
+    font-family: Bebas Neue, cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    background-color: var(--color-primary);
+    font-size: 2.5rem;
+    padding: 1.5rem 5.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    padding: 2rem 10rem;
+}
+
+label {
+    font-size: 1.5rem;
+
+}
+
+input {
+    width: 60%;
+    padding: 0.5rem;
+    font: inherit;
+    margin: 0rem 5rem;
+    margin-bottom: 1.5rem;
+}
+
+#submit-btn {
+    width: 70%;
+    padding: 1rem;
+    /* font: inherit; */
+    font-size: 1rem;
+    background-color: black;
+    color: var(--color-primary);
+    transition: all 0.5s;
+    border: 0.1rem solid black;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    color: black;
+    background-color: var(--color-primary);
+}
+
+.result {
+    background-color: var(--color-primary);
+    text-align: center;
+    font: inherit;
+    margin-top: 2rem;
+    width: 640px;
+}
+
+#output-img {
+    width: 40%;
+    padding-bottom: 2rem;
+}
+
+footer {
+    margin-top: 1rem;
+}
+
+.media-links {
+    display: flex;
+    background-color: var(--color-primary);
+    padding: 0rem 10rem;
+    /* padding: 3rem 10rem; */
+}
+
+.list-item {
+    display: inline-block;
+    list-style: none;
+    padding: 1.5rem 2.9rem;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+
+   
+
+
+
