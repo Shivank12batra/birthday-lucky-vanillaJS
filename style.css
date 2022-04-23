@@ -71,7 +71,7 @@ input {
     text-align: center;
     font: inherit;
     margin-top: 2rem;
-    width: 640px;
+    width: 48%;
 }
 
 #output-img {
@@ -81,6 +81,7 @@ input {
 
 footer {
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .media-links {
